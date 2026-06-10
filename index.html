@@ -1,10 +1,269 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
-<title>Kogucik24</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KOGUCIK - Opróżnianie Mieszkań</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#111;
+color:white;
+line-height:1.6;
+}
+
+header{
+background:linear-gradient(135deg,#000,#1a1a1a);
+padding:40px 20px;
+text-align:center;
+border-bottom:4px solid red;
+}
+
+.logo{
+max-width:250px;
+margin-bottom:20px;
+}
+
+h1{
+font-size:3rem;
+color:white;
+}
+
+.red{
+color:red;
+}
+
+.hero{
+padding:40px 20px;
+text-align:center;
+background:#181818;
+}
+
+.hero h2{
+font-size:2rem;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.2rem;
+max-width:900px;
+margin:auto;
+}
+
+.phone{
+display:inline-block;
+margin-top:25px;
+background:red;
+color:white;
+padding:15px 30px;
+font-size:2rem;
+font-weight:bold;
+border-radius:10px;
+text-decoration:none;
+}
+
+.section{
+padding:60px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.section h2{
+text-align:center;
+font-size:2.5rem;
+margin-bottom:30px;
+color:red;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1c1c1c;
+padding:25px;
+border-radius:15px;
+border:1px solid #333;
+text-align:center;
+}
+
+.card:hover{
+border-color:red;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:300px;
+object-fit:cover;
+border-radius:12px;
+}
+
+.contact{
+background:#181818;
+padding:50px 20px;
+text-align:center;
+}
+
+.contact h2{
+margin-bottom:20px;
+color:red;
+}
+
+.contact p{
+font-size:1.2rem;
+margin:10px 0;
+}
+
+footer{
+background:black;
+padding:25px;
+text-align:center;
+border-top:3px solid red;
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:2rem;
+}
+
+.hero h2{
+font-size:1.5rem;
+}
+
+.phone{
+font-size:1.5rem;
+}
+}
+</style>
 </head>
+
 <body>
-<h1>Witaj na Kogucik24!</h1>
-<p>Moja pierwsza strona internetowa.</p>
+
+<header>
+
+<img src="5be5b81d-fefc-4739-8d88-bd913.png" class="logo">
+
+<h1>KOGUCIK <span class="red">OPRÓŻNIANIE MIESZKAŃ</span></h1>
+
+<p>Mazowieckie i do 200 km</p>
+
+</header>
+
+<section class="hero">
+
+<h2>Szybko • Profesjonalnie • 24/7</h2>
+
+<p>
+Opróżniamy mieszkania, piwnice, strychy, garaże.
+Realizujemy przeprowadzki krajowe oraz zakładanie trawników.
+Darmowa wycena telefoniczna.
+</p>
+
+<a href="tel:531544122" class="phone">
+📞 531 544 122
+</a>
+
+</section>
+
+<section class="section">
+
+<h2>Nasze Usługi</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>🏠 Opróżnianie mieszkań</h3>
+<p>Kompleksowe opróżnianie lokali i domów.</p>
+</div>
+
+<div class="card">
+<h3>📦 Piwnice i strychy</h3>
+<p>Usuwanie starych rzeczy i odpadów.</p>
+</div>
+
+<div class="card">
+<h3>🚚 Przeprowadzki</h3>
+<p>Szybkie przeprowadzki krajowe.</p>
+</div>
+
+<div class="card">
+<h3>🌱 Zakładanie trawników</h3>
+<p>Przygotowanie i wysiew trawy.</p>
+</div>
+
+<div class="card">
+<h3>♻️ Wywóz gabarytów</h3>
+<p>Meble, AGD, odpady i graty.</p>
+</div>
+
+<div class="card">
+<h3>🕒 Działamy 24h</h3>
+<p>Szybkie terminy realizacji.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Galeria Realizacji</h2>
+
+<div class="gallery">
+
+<img src="20260513_180317.jpg">
+
+<img src="FB_IMG_1779309371984.jpg">
+
+<img src="FB_IMG_1779309530939.jpg">
+
+<img src="Resized_20260602_073904.jpg">
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2>Kontakt</h2>
+
+<p><strong>Telefon:</strong> 531 544 122</p>
+
+<p><strong>Email:</strong> hubberet@gmail.com</p>
+
+<p><strong>Obszar działania:</strong> Mazowieckie + 200 km</p>
+
+<br>
+
+<a href="tel:531544122" class="phone">
+📞 ZADZWOŃ TERAZ
+</a>
+
+</section>
+
+<footer>
+
+<p>© 2025 KOGUCIK Opróżnianie Mieszkań</p>
+
+<p>Telefon: 531 544 122</p>
+
+</footer>
+
 </body>
 </html>
